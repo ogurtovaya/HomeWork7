@@ -13,6 +13,7 @@ public class Client {
     private static Scanner scanner = new Scanner(System.in);
 
     public  Client() {
+
         try {
             socket = new Socket("localHost", 8080);
             in = new DataInputStream(socket.getInputStream());

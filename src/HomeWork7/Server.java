@@ -15,6 +15,7 @@ public class Server {private ServerSocket serverSocket;
     private Scanner scanner = new Scanner(System.in);
 
     public Server() {
+
         try {
             serverSocket = new ServerSocket(8080);
             System.out.println("the server is running");
